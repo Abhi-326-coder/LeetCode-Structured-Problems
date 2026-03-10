@@ -10,7 +10,7 @@ Easy
 ## Topic
 LinkedList
 
-## Topic
+## Platform
 LeetCode
 
 ## Approach
