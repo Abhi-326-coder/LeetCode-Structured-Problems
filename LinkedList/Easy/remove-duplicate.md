@@ -12,6 +12,9 @@ LinkedList
 ## Platform
 LeetCode
 
+## Video or Solution Link
+https://youtu.be/70tx7KcMROc?si=TU895CfXqvtY8Fqo
+
 ## Approach
 Run the Loop and check if the, node.value == next node value if not then point the node to next.next node
 

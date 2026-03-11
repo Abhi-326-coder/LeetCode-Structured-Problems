@@ -13,6 +13,9 @@ LinkedList
 ## Platform
 LeetCode
 
+## Video or Solution Link
+https://youtu.be/70tx7KcMROc?si=TU895CfXqvtY8Fqo
+
 ## Approach
 Traverse one by one and which one is smaller add it to list, when any one of the list becomes empty, add the remaining elements of the list in ans list
 

@@ -13,6 +13,9 @@ LinkedList
 ## Platform
 LeetCode
 
+## Video or Solution Link
+https://youtu.be/70tx7KcMROc?si=TU895CfXqvtY8Fqo
+
 ## Approach
 For every new bit:
 
