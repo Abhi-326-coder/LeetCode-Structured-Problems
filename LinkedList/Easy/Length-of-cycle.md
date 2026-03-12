@@ -1,8 +1,7 @@
-# Linked List Cycle
+# Length of cycle in Linked List
 
 ## Problem Link
-https://leetcode.com/problems/linked-list-cycle/description/
-
+https://www.geeksforgeeks.org/dsa/find-length-of-loop-in-linked-list/
 ## Difficulty
 Easy
 
@@ -10,7 +9,7 @@ Easy
 LinkedList
 
 ## Platform
-LeetCode Amazon Microsoft
+GFG Assingment Amazon Microsoft
 
 ## Video or Solution Link
 https://youtu.be/70tx7KcMROc?si=TU895CfXqvtY8Fqo
@@ -22,6 +21,8 @@ We have used the `Fast and Slow pointer method` in which fast node moves 2x time
 
 ``slow = slow.next;``
 
+After ``slow == fast`` then run loop again once with slow to till they meet again
+
 
 Time Complexity: O(n)
 
@@ -31,17 +32,23 @@ Space Complexity: O(1)
 
 ```java
 public class Solution {
-    public boolean hasCycle(ListNode head) {
+    public int hasCycle(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
         while(fast != null && fast.next != null){
             fast = fast.next.next;
             slow = slow.next;
             if(fast == slow){
-                return true;
+                ListNode temp = slow;
+                int length = 0;
+                do{
+                    temp = temp.next;
+                    length++;
+                }while(temp != slow);
+                return length;
             }
         }
-        return false;
+        return 0;
     }
 }
 ```
@@ -49,7 +56,7 @@ public class Solution {
 ## Output Example
 
 ```java 
-Input: head = [1,2], pos = 0
-Output: true
+Input: head = [1,2,4,5], pos = 0
+Output: 4
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 ```
