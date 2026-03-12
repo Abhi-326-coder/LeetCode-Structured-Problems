@@ -49,8 +49,7 @@ public class Solution {
 ## Output Example
 
 ```java 
-Input: 
-head = [1,0,1]
-Output: 5
-Explanation: (101) in base 2 = (5) in base 10
+Input: head = [1,2], pos = 0
+Output: true
+Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 ```
