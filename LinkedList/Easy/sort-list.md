@@ -18,6 +18,8 @@ https://youtu.be/70tx7KcMROc?si=TU895CfXqvtY8Fqo
 ## Approach
 We have used the merge Sorting method having two main function merge function, Sortlist and get mid functions 
 
+also second approach is the bubble sort method 
+
 Time Complexity: O(n)
 
 Space Complexity: O(1)
@@ -25,6 +27,7 @@ Space Complexity: O(1)
 ## Code
 
 ```java
+// Merge Sort method approach
 class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
@@ -65,6 +68,38 @@ class Solution {
         ListNode mid = midPrev.next;
         midPrev.next = null;
         return mid;
+    }
+}
+```
+```java
+// Using the bubble sort Method
+private void bubbleSort(int row ,int col){
+    if(row == 0){
+        return ;
+    }
+    if(col < row){
+        Node first = get(col);
+        Node second = get(col + 1);
+
+        if(first.value > second.value){
+            head = second;
+            first.next = second.next;
+            second.next = first;
+        }else if(second == tail){
+            Node prev = get(col - 1);
+            prev.next = second;
+            tail = first;
+            first.next = null;
+            second.next = tail;
+        } else{
+            Node prev = get(col - 1);
+            prev.next = second;
+            first.next = second.next;
+            second.next = first;
+        }
+    bubbleSort(row, col + 1);
+    }else{
+        bubbleSort(row - 1,0);
     }
 }
 ```
