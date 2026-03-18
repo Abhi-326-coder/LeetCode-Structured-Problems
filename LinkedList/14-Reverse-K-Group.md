@@ -59,6 +59,9 @@ class Solution {
 ## Output Example
 
 ```java 
-Input: head = [1,2,3,4,5], left = 2, right = 4
-Output: [1,4,3,2,5]
+Input: head = [1,2,3,4,5], k = 2
+Output: [2,1,4,3,5]
+
+Input: head = [1,2,3,4,5], k = 3
+Output: [3,2,1,4,5]
 ```
