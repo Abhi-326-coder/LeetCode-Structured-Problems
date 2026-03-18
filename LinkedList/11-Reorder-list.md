@@ -4,7 +4,7 @@
 https://leetcode.com/problems/reorder-list/
 
 ## Difficulty
-Easy
+Medium
 
 ## Topic
 LinkedList | stack | two pointer | recursion
