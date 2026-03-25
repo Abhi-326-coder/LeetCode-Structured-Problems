@@ -15,11 +15,8 @@ LeetCode
 ## Video or Solution Link
 https://chatgpt.com/c/69c40442-fcf4-8324-b786-56fbe45f71a3
 
-## Approach
-Instead of deleting the node…
-
-👉 Copy next node’s data into current node
-👉 Then delete the next node
+## Approach 
+In this we have to hashmap to map {userId, tweetId} and {userId, ListOfFollowers} 
 
 Time Complexity: 
 - postTweet() - O(1)
