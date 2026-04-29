@@ -10,7 +10,7 @@ Easy
 Stack | Arrays
 
 ## Platform
-LeetCode
+HackerRank
 
 ## Video or Solution Link
 https://youtu.be/S9LUYztYLu4?si=c2UetgagW9NA0BML
@@ -29,7 +29,7 @@ Recursion Stack	  O(n + m)
 
 ```java
 class Solution{
-    public static int GameTwoStacks(int x, int int[] a,int[] b){
+    public static int GameTwoStacks(int x, int[] a,int[] b){
         return twoStacks(x,a,b,0,0) - 1;
     }
 
