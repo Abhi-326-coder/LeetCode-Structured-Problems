@@ -17,6 +17,8 @@ LeetCode
 
 - https://chatgpt.com/c/69e8fb28-db00-83e8-8760-57ce8ec1d5fb
 
+- https://chatgpt.com/c/69fe157a-d830-83e9-8411-1eb3c9a97b99
+
 ## Approach
 - res represents the number of left/right parentheses - already added.
 - right represents the number of right parentheses needed.
