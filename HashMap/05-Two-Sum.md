@@ -20,6 +20,9 @@ https://chatgpt.com/c/6a0ca3e1-4280-8323-a05b-88d34592f981
 - if(set.contains(num)) then return true means have a duplicates
 - else add the num into the set
 
+Time complexity : O(n)
+Space complexity : O(n)
+
 ## Code
 
 ```java
