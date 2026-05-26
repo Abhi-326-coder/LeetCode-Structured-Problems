@@ -14,7 +14,8 @@ Array | Hash Table | Linked List | Design | Hash Function
 LeetCode
 
 ## Video or Solution Link
-https://chatgpt.com/c/6a147518-328c-8320-903a-f97d6379f5eb
+https://chatgpt.com/c/6a147518-328c-8320-903a-f97d6379f5eb 
+
 
 ## Approach 
 The loop continues until:
