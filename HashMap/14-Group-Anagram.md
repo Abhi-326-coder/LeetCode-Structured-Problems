@@ -9,7 +9,6 @@ Medium
 ## Topic
 Array | Hash Table | String | Sorting
 
-
 ## Platform
 LeetCode
 
@@ -35,6 +34,7 @@ Space: O(nk)
 ## Code
 
 ```java
+
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
@@ -52,6 +52,7 @@ class Solution {
         return new ArrayList<>(map.values());
     }
 }
+
 ```
 
 
