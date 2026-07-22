@@ -7,7 +7,8 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/descripti
 Medium
 
 ## Topic
-Tree | BFS | Binary Tree
+Tree | BFS | Binary Tree 
+
 
 ## Platform
 LeetCode
@@ -32,6 +33,7 @@ Space Complexity = O(N)
 ## Code
 
 ```java
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,6 +49,7 @@ Space Complexity = O(N)
  *     }
  * }
  */
+
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
